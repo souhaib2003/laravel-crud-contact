@@ -1,21 +1,21 @@
 # laravel-crud-contact
 
-Une application CRUD Laravel simple. 
+Une application CRUD Laravel simple. (crud)
 
-## Technologies utilisées
+## 🚀 Technologies utilisées
 
 - Laravel 12.x
 - PHP 8.2
 - MySQL
 
-## Emplois
+##  🧾 Fonctionnalités
 
-- Créer un contact
-- Modifier un contact
-- Supprimer un contact
-- Afficher tous les contacts
+✅ Créer un contact
+✅ Modifier un contact
+✅ Supprimer un contact
+✅ Afficher tous les contacts
 
-## Routes principales
+## 📌 Routes principales
 
 Méthode         URL                       Description    
 
@@ -26,7 +26,7 @@ GET             /contacts/{id}            Affiche un contact spécifique
 GET             /contacts/{id}/edit       Modifier un contact
 DELETE          /contacts/{id}            Supprimer un contact
 
-## Comment exécuter le projet 
+## ▶️ Comment exécuter le projet 
 
 1. Exécutez « composer install »
 2. Préparez un fichier « .env » avec les informations de la base de données
