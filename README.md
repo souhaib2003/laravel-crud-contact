@@ -7,6 +7,11 @@ Une application CRUD Laravel simple. (crud)
 - Laravel 12.x
 - PHP 8.2
 - MySQL
+  
+## 📂 Structure du projet
+- `/app`: logique métier
+- `/routes/web.php`: routes de l’application
+- `/resources/views`: vues Blade
 
 ##  🧾 Fonctionnalités
 
@@ -17,14 +22,11 @@ Une application CRUD Laravel simple. (crud)
 
 ## 📌 Routes principales
 
-Méthode         URL                       Description    
+- `/contacts`: liste de tous les contacts
+- `/contacts/create`: formulaire d’ajout
+- `/contacts/{id}/edit`: modifier un contact
+- `/contacts/{id}/delete`: supprimer un contact
 
-GET             /contacts                 Afficher tous les contacts
-GET             /contacts/Create          Créer un contact
-POST            /contacts                 Enregistre un nouveau contact
-GET             /contacts/{id}            Affiche un contact spécifique
-GET             /contacts/{id}/edit       Modifier un contact
-DELETE          /contacts/{id}            Supprimer un contact
 
 ## ▶️ Comment exécuter le projet 
 
