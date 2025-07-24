@@ -7,17 +7,17 @@
     @csrf
     @method("Put")
     <div class="mb-3">
-      <label class="form-label">name :</label>
+      <label class="form-label">Name :</label>
       <input name="name" value="{{$contact->name}}" type="name" class="form-control">
     </div>
 
     <div class="mb-3">
-      <label class="form-label">email :</label>
+      <label class="form-label">Email :</label>
       <input name="email" value="{{$contact->email}}" type="email" class="form-control">
     </div>
 
      <div class="mb-3">
-      <label class="form-label">phone :</label>
+      <label class="form-label">Phone :</label>
       <input name="phone" value="{{$contact->phone}}" type="tel" class="form-control">
     </div>
 

@@ -17,7 +17,6 @@
            Message
         </div>
         <div class="card-body">
-            <h5 class="card-title">Name:{{$contact['name']}}</h5>
             <p class="card-text">Email: {{$contact['email']}}</p>
             <p class="card-text">Message : {{$contact['message']}}</p>
         </div>
